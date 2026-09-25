@@ -84,7 +84,7 @@ Quando fizer alterações:
 
 ```bash
 git add .
-git commit -m "feat: descrição da alteração"
+git commit -m "feat: lesson-01 completed"
 git push -u origin dev01
 ```
 
