@@ -86,6 +86,9 @@ Quando fizer alterações:
 git add .
 git commit -m "feat: lesson-01 completed"
 git push -u origin dev01
+git switch main
+git pull origin main
+git switch -c dev03
 ```
 
 Depois, quando terminar o trabalho da `dev01`, você pode integrar na `main` via Pull Request no GitHub.
