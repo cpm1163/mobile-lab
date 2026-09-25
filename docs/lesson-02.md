@@ -1279,7 +1279,13 @@ Quando a Lesson 02 estiver realmente concluída:
 ```bash
 git status
 git add .
-git commit -m "refactor: create reusable home components"
+git commit -m "refactor: lesson-02 completed"
+git push -u origin dev02
+depois:::Pull Request
+git switch main
+git pull origin main
+git switch -c dev03
+
 ```
 
 Faça `push` quando considerar esse marco pronto para subir.
