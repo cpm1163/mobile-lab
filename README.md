@@ -54,3 +54,50 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+## Fluxo de trabalho com Git
+
+### Criar uma branch
+
+```bash
+git switch -c dev01
+```
+
+Isso cria a branch `dev01` a partir da `main` atual e já troca para ela.
+
+Depois confira:
+
+```bash
+git branch
+```
+
+Você deve ver:
+
+```text
+* dev01
+  main
+```
+
+### Salvar e enviar as alterações
+
+Quando fizer alterações:
+
+```bash
+git add .
+git commit -m "feat: lesson-01 completed"
+git push -u origin dev01
+```
+
+Depois, quando terminar o trabalho da `dev01`, você pode integrar na `main` via Pull Request no GitHub.
+
+### Iniciar a próxima etapa
+
+```bash
+git switch main
+git pull
+git switch -c dev02
+```
+### começar amanhã
+Quando voltar, é só dizer: “vamos começar a aula”. Até amanhã!
+yarn expo start --tunnel
+yarn expo start
